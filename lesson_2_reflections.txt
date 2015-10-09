@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+When i initialised the git repository in my reflections 
+repository it will make an empty git repository with 
+zero commits in it. This is needed in order to tell 
+git that it has a directory now which will store meta 
+data about the history of the files 
+when we make a first commit.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working directory is the directory in which you 
+are currently working in while as the staging area 
+is the place where we add up our changed files 
+for which we want the changes to be commited. 
+It offers more control over the changes 
+we want to commit in our repository.
