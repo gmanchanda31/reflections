@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff compares the two versions of the file and outputs 
+the differences in the two versions. So, we need to 
+find our bug in those output lines of code only.
+So it will become easy for us in finding the bug.
+So this file comparison tools like diff are useful for code debugging.
+
+
+How could having easy access to entire history of the file make you a more efficient programmer in the long term?
+If i have access to all the previous versions of the
+file then i can easily spot the bug, if any, in
+the new versions of the file. And moreover 
+i can easily study the development process of 
+the code by these previous versions saved.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros:
+1. saving versions manually gives you flexibility of saving your file.
+2. one can save the version whenever there is any logical change.
+3. unnecessary or short changes in the versions of your file are not messed up with your commit history.
+cons:
+1. sometimes we forget to save the versions of the file so that commit will not be saved.
+
+
+Why do you think some version control systems, like Git,
+allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+Git is a code oriented version control system. 
+And in coding projects we have various files inter-related,
+so we need to keep record of these files together, 
+while google docs is a text-oriented version control system.
+so different files need not to be tracked together.
+
+
+How can you use the commands git log and git diff to view the history of files?
+I can use the git log command to view the history of 
+my commits and thereby, easy debugging. And git diff is 
+used to find out which line of the code is changed.
+
+
+How might using version control make you more confident to make changes that could break something?
+By using git checkout i can restore any previous version. 
+It gives me confidence writing code because if any bug 
+that will introduce in the next version can be easily removed.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I will try git for all my new projects. I will use it for my project on Library Database management.
